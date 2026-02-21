@@ -10,7 +10,7 @@ services:
       - "443:443/tcp"
     environment:
       TZ: 'Europe/Amsterdam'
-      FTLCONF_webserver_api_password: 'wortel'
+      FTLCONF_webserver_api_password: '*****'
       FTLCONF_dns_listeningMode: all
     volumes:
       - './etc-pihole:/etc/pihole'
